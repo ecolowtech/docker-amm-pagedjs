@@ -1,0 +1,1 @@
+docker build -t ecolowtech/docker-amm-pagedjs .
