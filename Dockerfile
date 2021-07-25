@@ -1,5 +1,5 @@
 FROM node:lts-buster
-MAINTAINER GuillauG <guillaume@ecolowtech.fr>
+LABEL author="Guillaume AUGAIS"
 
 RUN apt update
 RUN apt install -y openjdk-11-jre
