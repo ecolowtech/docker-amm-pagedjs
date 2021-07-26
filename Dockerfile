@@ -2,7 +2,7 @@ FROM node:lts-buster
 LABEL author="Guillaume AUGAIS"
 
 RUN apt update
-RUN apt install -y openjdk-11-jre libgbm-dev
+RUN apt install -y openjdk-11-jre libgbm-dev pandoc
 
 ENV SCALA_VERSION 2.13
 ENV AMM_VERSION 2.4.0
