@@ -1,6 +1,7 @@
 docker build -t docker-amm-pagedjs .
 
-docker tag docker-amm-pagedjs ecolowtech/docker-amm-pagedjs:latest ecolowtech/docker-amm-pagedjs:0.0.4
+docker tag docker-amm-pagedjs ecolowtech/docker-amm-pagedjs:latest
+docker tag docker-amm-pagedjs ecolowtech/docker-amm-pagedjs:0.0.4
 
 docker login
 
