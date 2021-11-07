@@ -29,7 +29,7 @@ RUN \
 WORKDIR "/app"
 
 RUN cd "/app"
-RUN npm install -g pagedjs-cli --unsafe-perm=true --allow-root
+RUN npm install -g pagedjs-cli@0.1.6 --unsafe-perm=true --allow-root
 
 COPY ["entrypoint", "/entrypoint"]
 ENTRYPOINT ["/entrypoint"]
