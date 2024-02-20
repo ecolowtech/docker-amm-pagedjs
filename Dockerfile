@@ -5,8 +5,8 @@ RUN apt update
 RUN apt install -y openjdk-11-jre libgbm-dev pandoc
 
 ENV SCALA_VERSION 2.13
-ENV AMM_VERSION 2.4.0
-ENV MILL_VERSION 0.9.9
+ENV AMM_VERSION 2.5.11
+ENV MILL_VERSION 0.11.7
 
 ENV AMM_FILE $SCALA_VERSION-$AMM_VERSION
 ENV AMM_URL https://github.com/lihaoyi/Ammonite/releases/download/$AMM_VERSION/$AMM_FILE
